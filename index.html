@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Gateway</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+            margin: 0;
+        }
+
+        .payment-button {
+            background: #ffffff; /* Button background */
+            color: #000000; /* Button text color */
+            font-size: 16px; /* Text size */
+            padding: 10px 20px; /* Padding for the button */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+            text-transform: uppercase; /* Uppercase text */
+            text-align: center; /* Center text */
+            text-decoration: none; /* Remove underline */
+            transition: background 0.3s, color 0.3s; /* Smooth transition */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        .payment-button:hover {
+            background: #2575fc; /* Hover background color */
+            color: #ffffff; /* Hover text color */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.yourpaymentgateway.com" class="payment-button">
+        Proceed to Payment
+    </a>
+</body>
+</html>
